@@ -1,0 +1,95 @@
+* {
+	font-family:Comic Sans Ms;
+	transition: 0.5s;
+}
+
+html {
+	background-image:url(images/Italy.png);
+	background-size: contain;
+	background-color:rgb(255,0,0);
+}
+
+#banner {
+	font-size: 50px;
+	text-align:center;
+	flex:3;
+}
+nav a{
+  flex:1;  
+  text-align:center;
+  padding:20px;
+  justify-content: center;
+  align-items:center;
+  border-right: 1px solid #bbb;
+  font-size:16px;
+}
+nav a:hover{
+  background-color:black;
+  color:white;
+}
+
+.facts{
+	flex:1;
+	font-size:30px;
+	float:right;
+	transition: 1s;
+
+}
+
+img {
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 auto;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	
+}
+.images{
+	flex:3 3 auto;
+	flex-grow: 3;
+}
+.sepia {
+	filter:sepia(90%);
+}
+	
+	.sepia {
+	filter:sepia(90%);
+}
+	/* flex-grow: 3; */
+
+img:hover{
+	filter:none;
+}
+
+.facts:hover{
+	color: black;
+	text-decoration: overline;
+}
+.container{
+	display:flex;
+}
+.column{
+    flex-direction:reverse-column;
+}
+
+#main a{
+	font-size:36px;
+	color:Red;
+	text-decoration:none;
+}
+
+#body p{
+	padding:70px;
+}
+#footer{
+  background-color:gray;
+  color:white;
+  padding:20px;
+  justify-content: center;
+  align-items:center;
+  text-align:center;
+  flex:1;
+  justify-content: space-between;
+}
+
