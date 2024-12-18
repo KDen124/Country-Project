@@ -53,10 +53,17 @@ img {
 	filter:sepia(90%);
 }
 	
-	.sepia {
-	filter:sepia(90%);
+.blur {
+	filter: blur(2px);
 }
-	/* flex-grow: 3; */
+
+.invert {
+  filter: invert(70%);
+}
+
+.contrast {
+  filter: contrast(150%);
+}
 
 img:hover{
 	filter:none;
